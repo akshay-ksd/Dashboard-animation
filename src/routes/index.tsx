@@ -13,12 +13,6 @@ const Routes = () => {
           headerShown: false,
         }}>
         <Stack.Screen name="TabRouter" component={TabRouter} />
-        <Stack.Screen name="UserList" component={UserList} />
-        <Stack.Screen
-          name="UserProfile"
-          component={UserProfile}
-          options={{presentation: 'modal', animationTypeForReplace: 'push'}}
-        />
       </Stack.Navigator>
     </NavigationContainer>
   );
